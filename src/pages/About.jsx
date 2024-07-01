@@ -23,17 +23,19 @@ const About = () => {
       </header>
       <section className="about-text">
         <p>
-          I'm Creative Director and UI/UX Designer from Sydney, Australia,
-          working in web development and print media. I enjoy turning complex
-          problems into simple, beautiful and intuitive designs.
+          I am a skilled Front End Developer with extensive industry experience
+          in building websites and web applications. My expertise spans across HTML,
+          CSS, Bootstrap, JavaScript, and React, and I have also gained professional
+          experience working with Vue, Next.js, and Nuxt.js.
+
         </p>
         <p>
-          My job is to build your website so that it is functional and
-          user-friendly but at the same time attractive. Moreover, I add
-          personal touch to your product and make sure that is eye-catching and
-          easy to use. My aim is to bring across your message and identity in
-          the most creative way. I created web design for many famous brand
-          companies.
+          As an experienced JavaScript Developer, I have a proven track record in the
+          information technology and services industry. My skill set includes strong
+          communication, strategic planning, training, and proficiency in English.
+          I hold a Bachelor of Science degree in Computer Science from the University
+          Of Central Punjab, which has equipped me with a solid foundation in
+          engineering and web development.
         </p>
       </section>
 
@@ -237,7 +239,7 @@ const About = () => {
           <div className="modal-img-wrapper">
             <figure className="modal-avatar-box">
               <img
-                 src={Avatar1}
+                src={Avatar1}
                 alt="Daniel lewis"
                 width={80}
                 data-modal-img=""

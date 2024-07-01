@@ -527,6 +527,7 @@ main {
 
 .about-text p {
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 
@@ -2039,7 +2040,7 @@ textarea.form-input::-webkit-resizer {
      */
 
     main {
-        max-width: 1200px;
+        max-width: 1250px;
         margin-inline: auto;
         display: flex;
         justify-content: center;
@@ -2048,8 +2049,8 @@ textarea.form-input::-webkit-resizer {
     }
 
     .main-content {
-        min-width: 75%;
-        width: 75%;
+        min-width: 70%;
+        width: 70%;
         margin: 0;
     }
 
