@@ -1,4 +1,14 @@
 import React from 'react';
+import project1 from '../assets/project-1.jpg'
+import project2 from '../assets/project-2.png'
+import project3 from '../assets/project-3.jpg'
+import project4 from '../assets/project-4.png'
+import project5 from '../assets/project-5.png'
+import project6 from '../assets/project-6.png'
+import project7 from '../assets/project-7.png'
+import project8 from '../assets/project-8.jpg'
+import project9 from '../assets/project-9.png'
+import { EyeSharp } from 'react-ionicons';
 
 const Portfolio = () => {
   return (
@@ -29,12 +39,7 @@ const Portfolio = () => {
               Select category
             </div>
             <div className="select-icon">
-              <ion-icon
-                name="chevron-down"
-                role="img"
-                className="md hydrated"
-                aria-label="chevron down"
-              />
+              <EyeSharp color={'hsl(45, 100%, 72%)'} />
             </div>
           </button>
           <ul className="select-list">
@@ -61,15 +66,10 @@ const Portfolio = () => {
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon
-                    name="eye-outline"
-                    role="img"
-                    className="md hydrated"
-                    aria-label="eye outline"
-                  />
+                  <EyeSharp color={'hsl(45, 100%, 72%)'} />
                 </div>
                 <img
-                  src="./assets/images/project-1.jpg"
+                  src={project1}
                   alt="finance"
                   loading="lazy"
                 />
@@ -86,15 +86,10 @@ const Portfolio = () => {
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon
-                    name="eye-outline"
-                    role="img"
-                    className="md hydrated"
-                    aria-label="eye outline"
-                  />
+                  <EyeSharp color={'hsl(45, 100%, 72%)'} />
                 </div>
                 <img
-                  src="./assets/images/project-2.png"
+                  src={project2}
                   alt="orizon"
                   loading="lazy"
                 />
@@ -111,15 +106,10 @@ const Portfolio = () => {
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon
-                    name="eye-outline"
-                    role="img"
-                    className="md hydrated"
-                    aria-label="eye outline"
-                  />
+                  <EyeSharp color={'hsl(45, 100%, 72%)'} />
                 </div>
                 <img
-                  src="./assets/images/project-3.jpg"
+                  src={project3}
                   alt="fundo"
                   loading="lazy"
                 />
@@ -136,15 +126,10 @@ const Portfolio = () => {
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon
-                    name="eye-outline"
-                    role="img"
-                    className="md hydrated"
-                    aria-label="eye outline"
-                  />
+                  <EyeSharp color={'hsl(45, 100%, 72%)'} />
                 </div>
                 <img
-                  src="./assets/images/project-4.png"
+                  src={project4}
                   alt="brawlhalla"
                   loading="lazy"
                 />
@@ -161,15 +146,10 @@ const Portfolio = () => {
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon
-                    name="eye-outline"
-                    role="img"
-                    className="md hydrated"
-                    aria-label="eye outline"
-                  />
+                  <EyeSharp color={'hsl(45, 100%, 72%)'} />
                 </div>
                 <img
-                  src="./assets/images/project-5.png"
+                  src={project5}
                   alt="dsm."
                   loading="lazy"
                 />
@@ -186,15 +166,10 @@ const Portfolio = () => {
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon
-                    name="eye-outline"
-                    role="img"
-                    className="md hydrated"
-                    aria-label="eye outline"
-                  />
+                  <EyeSharp color={'hsl(45, 100%, 72%)'} />
                 </div>
                 <img
-                  src="./assets/images/project-6.png"
+                  src={project6}
                   alt="metaspark"
                   loading="lazy"
                 />
@@ -211,15 +186,10 @@ const Portfolio = () => {
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon
-                    name="eye-outline"
-                    role="img"
-                    className="md hydrated"
-                    aria-label="eye outline"
-                  />
+                  <EyeSharp color={'hsl(45, 100%, 72%)'} />
                 </div>
                 <img
-                  src="./assets/images/project-7.png"
+                  src={project7}
                   alt="summary"
                   loading="lazy"
                 />
@@ -236,15 +206,10 @@ const Portfolio = () => {
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon
-                    name="eye-outline"
-                    role="img"
-                    className="md hydrated"
-                    aria-label="eye outline"
-                  />
+                  <EyeSharp color={'hsl(45, 100%, 72%)'} />
                 </div>
                 <img
-                  src="./assets/images/project-8.jpg"
+                  src={project8}
                   alt="task manager"
                   loading="lazy"
                 />
@@ -261,15 +226,10 @@ const Portfolio = () => {
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon
-                    name="eye-outline"
-                    role="img"
-                    className="md hydrated"
-                    aria-label="eye outline"
-                  />
+                  <EyeSharp color={'hsl(45, 100%, 72%)'} />
                 </div>
                 <img
-                  src="./assets/images/project-9.png"
+                  src={project9}
                   alt="arrival"
                   loading="lazy"
                 />

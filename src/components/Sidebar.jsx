@@ -8,7 +8,7 @@ import {
   LogoGithub,
   LogoTwitter,
 } from 'react-ionicons';
-import ProfileImage from '../assets/my-avatar.png'
+import ProfileImage from '../assets/my-avatar1.png'
 
 const Sidebar = () => {
 
@@ -84,7 +84,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li className="social-item">
-            <a href="https://www.linkedin.com/in/abdurrehman-frontenddev/" className="social-link">
+            <a href="https://www.linkedin.com/in/abdurrehman-frontend-dev/" className="social-link">
               <LogoLinkedin color={'#ffff'} />
             </a>
           </li>

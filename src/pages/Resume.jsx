@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  BookOutline
+} from 'react-ionicons';
 
 const Resume = () => {
   return (
@@ -9,42 +12,39 @@ const Resume = () => {
       <section className="timeline">
         <div className="title-wrapper">
           <div className="icon-box">
-            <ion-icon
-              name="book-outline"
-              role="img"
-              className="md hydrated"
-              aria-label="book outline"
-            />
+            <BookOutline color={'#00000'} className="md hydrated" />
           </div>
           <h3 className="h3">Education</h3>
         </div>
         <ol className="timeline-list">
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">
-              University school of the arts
+              University of Central Punjab
             </h4>
-            <span>2007 — 2008</span>
+            <span>2016 — 2020</span>
             <p className="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et quas molestias exceptur.
+              Completed a Bachelor of Science degree in Computer Science.
+              Gained comprehensive knowledge and skills in software development,
+              web technologies, database management, and computer networks.
             </p>
           </li>
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">New york academy of art</h4>
-            <span>2006 — 2007</span>
+            <h4 className="h4 timeline-item-title">Punjab Group of Colleges</h4>
+            <span>2014 — 2015</span>
             <p className="timeline-text">
-              Ratione voluptatem sequi nesciunt, facere quisquams facere menda
-              ossimus, omnis voluptas assumenda est omnis..
+              Completed FSC Pre-Engineering. Developed a strong foundation in physics,
+              chemistry, and mathematics, which prepared me for further studies in
+              computer science.
             </p>
           </li>
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">
-              High school of art and design
+              Private High school
             </h4>
-            <span>2002 — 2004</span>
+            <span>2012 — 2013</span>
             <p className="timeline-text">
-              Duis aute irure dolor in reprehenderit in voluptate, quila
-              voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+              Completed Matriculation in Science. Acquired fundamental knowledge
+              in subjects like mathematics, physics, chemistry, and biology.
             </p>
           </li>
         </ol>
@@ -52,38 +52,55 @@ const Resume = () => {
       <section className="timeline">
         <div className="title-wrapper">
           <div className="icon-box">
-            <ion-icon
-              name="book-outline"
-              role="img"
-              className="md hydrated"
-              aria-label="book outline"
-            />
+            <BookOutline color={'#00000'} className="md hydrated" />
           </div>
           <h3 className="h3">Experience</h3>
         </div>
         <ol className="timeline-list">
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">Creative director</h4>
-            <span>2015 — Present</span>
+            <h4 className="h4 timeline-item-title">Frontend Developer</h4>
+            <span>Punjab Information Technology Board (PITB) · Freelance <br />
+              Jun 2024 — Present</span>
             <p className="timeline-text">
-              Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit
-              atque corrupti, quos dolores et qvuas molestias exceptur.
+              Currently working on an e-commerce website focused on selling handmade bedsheets.
+              Utilizing React.js to create a seamless and engaging shopping experience.
             </p>
           </li>
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">Art director</h4>
-            <span>2013 — 2015</span>
+            <h4 className="h4 timeline-item-title">Frontend Developer</h4>
+            <span>Getdirect Holidays  · Part-time <br /> Jun 2024 — Present</span>
             <p className="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et quas molestias exceptur.
+              Working on GetDirect Holidays, an admin portal created using React.js and
+              Redux Toolkit. This project involves building interface that
+              allows administrators to efficiently manage various aspects of the platform.
             </p>
           </li>
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">Web designer</h4>
-            <span>2010 — 2013</span>
+            <h4 className="h4 timeline-item-title">Senior ReactJs Developer</h4>
+            <span>Webevis Technologies · Full-time <br /> Jan 2023 — Jun 2024 </span>
             <p className="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et quas molestias exceptur.
+              Developed responsive web applications using React.js, ensuring optimal
+              performance and compatibility across various browsers and devices.
+              Implemented state management solutions such as Redux and Context API
+              to maintain application state and enhance user interactivity
+            </p>
+          </li>
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">ReactJs Developer</h4>
+            <span>Transcure · Full-time <br />
+              Jul 2022 — Dec 2022</span>
+            <p className="timeline-text">
+              Led front-end development efforts for e-commerce platform,
+              optimising performance and enhancing user experience through ReactJS
+              components and dynamic data rendering.
+            </p>
+          </li>
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">Frontend Developer</h4>
+            <span>MettleSol · Full-time <br /> Jan 2021 — Jun 2022 </span>
+            <p className="timeline-text">
+              Employed component-based architecture in ReactJS projects,
+              enhancing code re-usability and facilitating easier maintenance and updates.
             </p>
           </li>
         </ol>
@@ -93,25 +110,7 @@ const Resume = () => {
         <ul className="skills-list content-card">
           <li className="skills-item">
             <div className="title-wrapper">
-              <h5 className="h5">Web design</h5>
-              <data value={80}>80%</data>
-            </div>
-            <div className="skill-progress-bg">
-              <div className="skill-progress-fill" style={{ width: "80%" }} />
-            </div>
-          </li>
-          <li className="skills-item">
-            <div className="title-wrapper">
-              <h5 className="h5">Graphic design</h5>
-              <data value={70}>70%</data>
-            </div>
-            <div className="skill-progress-bg">
-              <div className="skill-progress-fill" style={{ width: "70%" }} />
-            </div>
-          </li>
-          <li className="skills-item">
-            <div className="title-wrapper">
-              <h5 className="h5">Branding</h5>
+              <h5 className="h5">Web Development</h5>
               <data value={90}>90%</data>
             </div>
             <div className="skill-progress-bg">
@@ -120,11 +119,29 @@ const Resume = () => {
           </li>
           <li className="skills-item">
             <div className="title-wrapper">
-              <h5 className="h5">WordPress</h5>
-              <data value={50}>50%</data>
+              <h5 className="h5">Mobile Development</h5>
+              <data value={60}>60%</data>
             </div>
             <div className="skill-progress-bg">
-              <div className="skill-progress-fill" style={{ width: "50%" }} />
+              <div className="skill-progress-fill" style={{ width: "60%" }} />
+            </div>
+          </li>
+          <li className="skills-item">
+            <div className="title-wrapper">
+              <h5 className="h5">Digital Marketing</h5>
+              <data value={98}>98%</data>
+            </div>
+            <div className="skill-progress-bg">
+              <div className="skill-progress-fill" style={{ width: "98%" }} />
+            </div>
+          </li>
+          <li className="skills-item">
+            <div className="title-wrapper">
+              <h5 className="h5">Customer Support</h5>
+              <data value={95}>95%</data>
+            </div>
+            <div className="skill-progress-bg">
+              <div className="skill-progress-fill" style={{ width: "95%" }} />
             </div>
           </li>
         </ul>

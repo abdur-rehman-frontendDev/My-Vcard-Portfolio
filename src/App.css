@@ -800,6 +800,8 @@ main {
 .clients-item {
     min-width: 50%;
     scroll-snap-align: start;
+    min-height: 109.47px;
+    align-content: center;
 }
 
 .clients-item img {
@@ -2076,6 +2078,7 @@ textarea.form-input::-webkit-resizer {
 
     .avatar-box img {
         width: 150px;
+        border-radius: 10px;
     }
 
     .info-content .name {

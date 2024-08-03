@@ -8,12 +8,14 @@ import Avatar2 from '../assets/avatar-2.png'
 import Avatar3 from '../assets/avatar-3.png'
 import Avatar4 from '../assets/avatar-4.png'
 import IconQuote from '../assets/icon-quote.svg'
-import Logo1 from '../assets/logo-1-color.png'
-import Logo2 from '../assets/logo-2-color.png'
-import Logo3 from '../assets/logo-3-color.png'
-import Logo4 from '../assets/logo-4-color.png'
-import Logo5 from '../assets/logo-5-color.png'
-import Logo6 from '../assets/logo-6-color.png'
+import Logo1 from '../assets/clients/logo-1-color.png'
+import Logo2 from '../assets/clients/logo-2-color.png'
+import Logo3 from '../assets/clients/logo-3-color.png'
+import Logo4 from '../assets/clients/logo-4-color.png'
+import Logo5 from '../assets/clients/logo-5-color.png'
+import Logo6 from '../assets/clients/logo-6-color.png'
+import Logo7 from '../assets/clients/logo-7-color.png'
+import Logo8 from '../assets/clients/logo-8-color.png'
 
 const About = () => {
   return (
@@ -23,20 +25,19 @@ const About = () => {
       </header>
       <section className="about-text">
         <p>
-          I am a skilled Front End Developer with extensive industry experience
-          in building websites and web applications. My expertise spans across HTML,
-          CSS, Bootstrap, JavaScript, and React, and I have also gained professional
-          experience working with Vue, Next.js, and Nuxt.js.
+          With over 3 years of expertise in Frontend Development, I am driven by a passion
+          for creating seamless and engaging user experiences. I specialize in JavaScript,
+          with a strong focus on React.js and Next.js, enabling me to transform intricate
+          designs into responsive, high-performing websites that captivate audiences across
+          various devices.
+        </p>
+        <p>My experience includes working on diverse projects, from e-commerce platforms to
+          admin portals, where I implement state-of-the-art state management solutions such
+          as Redux and Context API. I thrive in collaborative environments, working closely with
+          designers and backend developers to deliver exceptional products that meet the
+          highest standards of web design and accessibility.
+        </p>
 
-        </p>
-        <p>
-          As an experienced JavaScript Developer, I have a proven track record in the
-          information technology and services industry. My skill set includes strong
-          communication, strategic planning, training, and proficiency in English.
-          I hold a Bachelor of Science degree in Computer Science from the University
-          Of Central Punjab, which has equipped me with a solid foundation in
-          engineering and web development.
-        </p>
       </section>
 
       <section className="service">
@@ -107,7 +108,7 @@ const About = () => {
         </ul>
       </section>
 
-      <section className="testimonials">
+      {/* <section className="testimonials">
         <h3 className="h3 testimonials-title">Testimonials</h3>
         <ul className="testimonials-list has-scrollbar">
           <li className="testimonials-item">
@@ -263,7 +264,7 @@ const About = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
 
       <section className="clients">
         <h3 className="h3 clients-title">Clients</h3>
@@ -296,6 +297,16 @@ const About = () => {
           <li className="clients-item">
             <a href="#">
               <img src={Logo6} alt="client logo" />
+            </a>
+          </li>
+          <li className="clients-item">
+            <a href="#">
+              <img src={Logo7} alt="client logo" />
+            </a>
+          </li>
+          <li className="clients-item">
+            <a href="#">
+              <img src={Logo8} alt="client logo" />
             </a>
           </li>
         </ul>

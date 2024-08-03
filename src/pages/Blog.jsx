@@ -1,4 +1,10 @@
 import React from 'react';
+import blog1 from '../assets/blog-1.jpg'
+import blog2 from '../assets/blog-2.jpg'
+import blog3 from '../assets/blog-3.jpg'
+import blog4 from '../assets/blog-4.jpg'
+import blog5 from '../assets/blog-5.jpg'
+import blog6 from '../assets/blog-6.jpg'
 
 const Blog = () => {
   return (
@@ -12,7 +18,7 @@ const Blog = () => {
             <a href="#">
               <figure className="blog-banner-box">
                 <img
-                  src="./assets/images/blog-1.jpg"
+                  src={blog1}
                   alt="Design conferences in 2022"
                   loading="lazy"
                 />
@@ -37,7 +43,7 @@ const Blog = () => {
             <a href="#">
               <figure className="blog-banner-box">
                 <img
-                  src="./assets/images/blog-2.jpg"
+                  src={blog2}
                   alt="Best fonts every designer"
                   loading="lazy"
                 />
@@ -62,7 +68,7 @@ const Blog = () => {
             <a href="#">
               <figure className="blog-banner-box">
                 <img
-                  src="./assets/images/blog-3.jpg"
+                  src={blog3}
                   alt="Design digest #80"
                   loading="lazy"
                 />
@@ -85,7 +91,7 @@ const Blog = () => {
             <a href="#">
               <figure className="blog-banner-box">
                 <img
-                  src="./assets/images/blog-4.jpg"
+                  src={blog4}
                   alt="UI interactions of the week"
                   loading="lazy"
                 />
@@ -110,7 +116,7 @@ const Blog = () => {
             <a href="#">
               <figure className="blog-banner-box">
                 <img
-                  src="./assets/images/blog-5.jpg"
+                  src={blog5}
                   alt="The forgotten art of spacing"
                   loading="lazy"
                 />
@@ -135,7 +141,7 @@ const Blog = () => {
             <a href="#">
               <figure className="blog-banner-box">
                 <img
-                  src="./assets/images/blog-6.jpg"
+                  src={blog6}
                   alt="Design digest #79"
                   loading="lazy"
                 />
