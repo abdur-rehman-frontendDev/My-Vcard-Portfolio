@@ -1,5 +1,5 @@
-import React from 'react';
-import { Route, Routes, Navigate } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Route, Routes, Navigate, useLocation } from 'react-router-dom';
 import Resume from './pages/Resume';
 import About from './pages/About';
 import Sidebar from './components/Sidebar';
@@ -9,9 +9,20 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import './App.css';
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 const App = () => {
   return (
     <main>
+      <ScrollToTop />
       <Sidebar />
       <div className="main-content">
         <Navbar />
