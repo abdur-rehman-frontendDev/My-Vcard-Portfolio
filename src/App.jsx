@@ -16,14 +16,13 @@ const App = () => {
       <div className="main-content">
         <Navbar />
         <Routes>
-          <Route path="/portfolio" element={<Navigate to="/portfolio/about" />} />
-          <Route path="/portfolio/" element={<Navigate to="/portfolio/about" />} />
-          <Route path="/portfolio/about" element={<About />} />
-          <Route path="/portfolio/resume" element={<Resume />} />
-          <Route path="/portfolio/portfolio" element={<Portfolio />} />
-          <Route path="/portfolio/blog" element={<Blog />} />
-          <Route path="/portfolio/contact" element={<Contact />} />
-          <Route path="*" element={<Navigate to="/portfolio/about" />} />
+          <Route path="/" element={<Navigate to="/about" />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/about" />} />
         </Routes>
       </div>
     </main>

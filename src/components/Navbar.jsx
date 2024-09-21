@@ -7,7 +7,7 @@ const Navbar = () => {
             <ul className="navbar-list">
                 <li className="navbar-item">
                     <NavLink
-                        to="/portfolio/about"
+                        to="/about"
                         className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}
                     >
                         About
@@ -15,7 +15,7 @@ const Navbar = () => {
                 </li>
                 <li className="navbar-item">
                     <NavLink
-                        to="/portfolio/resume"
+                        to="/resume"
                         className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}
                     >
                         Resume
@@ -23,7 +23,7 @@ const Navbar = () => {
                 </li>
                 <li className="navbar-item">
                     <NavLink
-                        to="/portfolio/portfolio"
+                        to="/portfolio"
                         className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}
                     >
                         Portfolio
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </li>
                 <li className="navbar-item">
                     <NavLink
-                        to="/portfolio/blog"
+                        to="/blog"
                         className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}
                     >
                         Blog
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </li>
                 <li className="navbar-item">
                     <NavLink
-                        to="/portfolio/contact"
+                        to="/contact"
                         className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}
                     >
                         Contact
