@@ -21,14 +21,14 @@ const Navbar = () => {
                         Resume
                     </NavLink>
                 </li>
-                <li className="navbar-item">
+                {/* <li className="navbar-item">
                     <NavLink
                         to="/portfolio"
                         className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}
                     >
                         Portfolio
                     </NavLink>
-                </li>
+                </li> */}
                 <li className="navbar-item">
                     <NavLink
                         to="/blog"

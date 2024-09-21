@@ -270,43 +270,43 @@ const About = () => {
         <h3 className="h3 clients-title">Clients</h3>
         <ul className="clients-list has-scrollbar">
           <li className="clients-item">
-            <a href="#">
-              <img src={Logo1} alt="client logo" />
+            <a href="https://lettolino.vercel.app/" target='_blank'>
+              <img src={Logo1} alt="lettolino logo" />
             </a>
           </li>
           <li className="clients-item">
-            <a href="#">
-              <img src={Logo2} alt="client logo" />
+            <a href="https://yallabid.com/" target='_blank'>
+              <img src={Logo2} alt="yallabid logo" />
             </a>
           </li>
           <li className="clients-item">
-            <a href="#">
-              <img src={Logo3} alt="client logo" />
+            <a href="https://uniorx.com/" target='_blank'>
+              <img src={Logo3} alt="uniorx logo" />
             </a>
           </li>
           <li className="clients-item">
-            <a href="#">
-              <img src={Logo4} alt="client logo" />
+            <a href="https://dashboard.genensys.com/" target='_blank'>
+              <img src={Logo4} alt="transcure logo" />
             </a>
           </li>
           <li className="clients-item">
-            <a href="#">
-              <img src={Logo5} alt="client logo" />
+            <a href="https://mountain.com/" target='_blank'>
+              <img src={Logo5} alt="mountain logo" />
             </a>
           </li>
           <li className="clients-item">
-            <a href="#">
-              <img src={Logo6} alt="client logo" />
+            <a href="https://webevis.com/" target='_blank'>
+              <img src={Logo6} alt="webevis logo" />
             </a>
           </li>
           <li className="clients-item">
-            <a href="#">
-              <img src={Logo7} alt="client logo" />
+            <a href="https://mettlesol.com/" target='_blank'>
+              <img src={Logo7} alt="mettlesol logo" />
             </a>
           </li>
           <li className="clients-item">
-            <a href="#">
-              <img src={Logo8} alt="client logo" />
+            <a href="https://getdirectholidays.co.uk/api/admin" target='_blank'>
+              <img src={Logo8} alt="getdirectholidays logo" />
             </a>
           </li>
         </ul>
